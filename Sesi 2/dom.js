@@ -8,7 +8,7 @@
 // body.append(heading)
 
 const inputTask = document.getElementsByClassName("input")
-const taskList = document.getElementById("taskList")
+// const taskList = document.getElementById("taskList")
 
 function addTask() {
     const inputValue = inputTask.value
@@ -20,7 +20,7 @@ function addTask() {
     }
 
     // Membuat List Item
-    const listItem = document.createElement("li")
+    // const listItem = document.createElement("li")
 
     //Style HTML lewat JS
     listItem.style.fontSize = "20px"
